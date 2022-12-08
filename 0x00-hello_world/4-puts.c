@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main- serves as the entry point for the program
+ *main- Entry point
  *
- * Return: By default returns zero if no errors otherwise returns non-zero value.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
