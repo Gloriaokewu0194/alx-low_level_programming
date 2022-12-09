@@ -3,10 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - print a random num
+ * main - main function to generate a random number
  *
- * Return: 0
+ * Return: Always 0 (success)
+ *
  */
+
 int main(void)
 {
 	int n;
@@ -14,10 +16,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
+	{
 		printf("%d is positive\n", n);
+	}
 	else if (n < o)
+	{
 		printf("%d is negative\n", n);
-	else
+	}
+	else if (n == 0)
+	{
 		printf("%d is zero\n", n);
+	}
 	return (0);
 }
