@@ -8,8 +8,8 @@
 char *leet(char *n)
 {
 	int i, j;
-	char s1[] = "aAeEoOtTlL";
-	char s2[] = "443007711";
+	char s1[] = "AEOTL";
+	char s2[] = "43071";
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
