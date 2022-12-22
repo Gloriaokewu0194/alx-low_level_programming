@@ -1,27 +1,24 @@
 #include "main.h"
 
 /**
- * leet - a leet funcyion
- * @x: param x
+ * leet - a leet function
+ * @n: param n
  * Return: a string
  */
-char *leet(char *x)
+char *leet(char *n)
 {
-	int a = 0, b = 0, l = 5;
-	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-	char trw[5] = {'4', '3', '0', '7', '1'};
+	int i, j;
+	char s1[5] = {'A', 'E', 'O', 'T', 'L'};
+	char s2[5] = {'4', '3', '0', '7', '1'};
 
-	while (x[a]
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		b = 0;
-
-		while (b < l)
+		for (j = 0; j < 10; j++)
 		{
-			if (x[a] == tr[b] || x[a] - 32 == tr[b])
-				x[a] = trw[b]
-			b++;
+			if (n[i] == s1[j] || n[i] - 32 == s1[j]
+				n[i] = s2[j];
+
 		}
-		a++;
 	}
-	return (x);
+	return (n);
 }
