@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * leet - a leet function
- * @n: param n
- * Return: a string
+ * leet - encodes a string into 1337
+ * @n: input
+ * Return: the value of n
  */
 char *leet(char *n)
 {
 	int i, j;
-	char s1[5] = {'A', 'E', 'O', 'T', 'L'};
-	char s2[5] = {'4', '3', '0', '7', '1'};
+	char s1[] = {'A', 'E', 'O', 'T', 'L'};
+	char s2[] = {'4', '3', '0', '7', '1'};
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
