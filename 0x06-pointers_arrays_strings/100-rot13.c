@@ -14,7 +14,7 @@ char *rot13(char *s)
 
 	int j;
 
-	char data1[] = "ABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
